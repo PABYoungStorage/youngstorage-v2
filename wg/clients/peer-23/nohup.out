@@ -1,0 +1,57 @@
+[2022-12-03T07:21:28.829Z] info  code-server 4.8.3 977b853a1e162ab583aed64b1322d1515c57728c
+[2022-12-03T07:21:28.833Z] info  Using user-data-dir ~/.local/share/code-server
+[2022-12-03T07:21:28.854Z] info  Using config file ~/.config/code-server/config.yaml
+[2022-12-03T07:21:28.854Z] info  HTTP server listening on http://172.19.0.1:1111/ 
+[2022-12-03T07:21:28.854Z] info    - Authentication is enabled
+[2022-12-03T07:21:28.855Z] info      - Using password from ~/.config/code-server/config.yaml
+[2022-12-03T07:21:28.855Z] info    - Not serving HTTPS 
+[12:51:39] Extension host agent started.
+[12:51:41] [172.19.0.5][5762953a][ManagementConnection] New connection established.
+[12:51:43] [172.19.0.5][6b320b37][ExtensionHostConnection] New connection established.
+[12:51:43] [172.19.0.5][6b320b37][ExtensionHostConnection] <126386> Launched Extension Host Process.
+[2022-12-03T07:28:02.796Z] info  code-server 4.8.3 977b853a1e162ab583aed64b1322d1515c57728c
+[2022-12-03T07:28:02.797Z] info  Using user-data-dir ~/.local/share/code-server
+[2022-12-03T07:28:02.810Z] info  Using config file ~/.config/code-server/config.yaml
+[2022-12-03T07:28:02.811Z] info  HTTP server listening on http://172.19.0.1:1111/ 
+[2022-12-03T07:28:02.811Z] info    - Authentication is enabled
+[2022-12-03T07:28:02.812Z] info      - Using password from ~/.config/code-server/config.yaml
+[2022-12-03T07:28:02.812Z] info    - Not serving HTTPS 
+[2022-12-03T07:28:19.444Z] info  code-server 4.8.3 977b853a1e162ab583aed64b1322d1515c57728c
+[2022-12-03T07:28:19.446Z] info  Using user-data-dir ~/.local/share/code-server
+[2022-12-03T07:28:19.459Z] info  Using config file ~/.config/code-server/config.yaml
+[2022-12-03T07:28:19.459Z] info  HTTP server listening on http://172.19.0.1:1111/ 
+[2022-12-03T07:28:19.459Z] info    - Authentication is enabled
+[2022-12-03T07:28:19.459Z] info      - Using password from ~/.config/code-server/config.yaml
+[2022-12-03T07:28:19.459Z] info    - Not serving HTTPS 
+[12:58:23] Extension host agent started.
+[12:58:25] [172.19.0.5][6deef96a][ManagementConnection] New connection established.
+IPC "Pty Host" crashed with exit code null and signal SIGINT
+[12:58:26] ptyHost terminated unexpectedly with code null
+a socket was left hanging
+a socket was left hanging
+[2022-12-03T07:30:30.242Z] info  code-server 4.8.3 977b853a1e162ab583aed64b1322d1515c57728c
+[2022-12-03T07:30:30.243Z] info  Using user-data-dir ~/.local/share/code-server
+[2022-12-03T07:30:30.267Z] info  Using config file ~/.config/code-server/config.yaml
+[2022-12-03T07:30:30.267Z] info  HTTP server listening on http://172.19.0.1:1111/ 
+[2022-12-03T07:30:30.268Z] info    - Authentication is enabled
+[2022-12-03T07:30:30.268Z] info      - Using password from ~/.config/code-server/config.yaml
+[2022-12-03T07:30:30.268Z] info    - Not serving HTTPS 
+[13:00:32] Extension host agent started.
+[13:00:32] [172.19.0.5][977c7481][ExtensionHostConnection] Unknown reconnection token (never seen).
+[13:00:32] [172.19.0.5][1229a9fb][ManagementConnection] Unknown reconnection token (never seen).
+[13:00:37] [172.19.0.5][cf326dfb][ManagementConnection] New connection established.
+[13:00:39] [172.19.0.5][f63889b8][ExtensionHostConnection] New connection established.
+[13:00:39] [172.19.0.5][f63889b8][ExtensionHostConnection] <151305> Launched Extension Host Process.
+[2022-12-03T07:32:09.521Z] info  code-server 4.8.3 977b853a1e162ab583aed64b1322d1515c57728c
+[2022-12-03T07:32:09.523Z] info  Using user-data-dir ~/.local/share/code-server
+[2022-12-03T07:32:09.547Z] info  Using config file ~/.config/code-server/config.yaml
+[2022-12-03T07:32:09.547Z] info  HTTP server listening on http://172.19.0.1:1111/ 
+[2022-12-03T07:32:09.547Z] info    - Authentication is enabled
+[2022-12-03T07:32:09.547Z] info      - Using password from ~/.config/code-server/config.yaml
+[2022-12-03T07:32:09.547Z] info    - Not serving HTTPS 
+[13:02:11] Extension host agent started.
+[13:02:11] [172.19.0.5][f63889b8][ExtensionHostConnection] Unknown reconnection token (never seen).
+[13:02:13] [172.19.0.5][cf326dfb][ManagementConnection] Unknown reconnection token (never seen).
+[13:02:17] [172.19.0.5][f946ad78][ManagementConnection] New connection established.
+[13:02:18] [172.19.0.5][e8464761][ExtensionHostConnection] New connection established.
+[13:02:18] [172.19.0.5][e8464761][ExtensionHostConnection] <156008> Launched Extension Host Process.

@@ -1,0 +1,38 @@
+FROM ubuntu:latest
+RUN apt update
+ARG S6_OVERLAY_VERSION=3.1.0.1
+RUN apt install -y openssh-server nano htop
+RUN apt install -y sudo figlet lolcat
+ENV DEBIAN_FRONTEND noninteractive
+RUN apt install -y ufw net-tools netcat curl 
+RUN apt install -y inetutils-ping
+RUN apt install -y iproute2
+RUN apt install -y wireguard
+RUN apt install -y zsh
+RUN apt-get -y install xz-utils
+RUN apt install -y nodejs npm
+RUN service ssh start
+RUN echo 'root:admin' | chpasswd
+COPY wireguard /etc/init.d/
+#peer variable
+COPY /wg/clients/peer-22/peer-22.conf /etc/wireguard/
+RUN echo "clear" >> /etc/bash.bashrc
+RUN echo "figlet -t -c youngstorage | lolcat" >> /etc/bash.bashrc
+RUN echo "echo ''" >> /etc/bash.bashrc
+RUN curl -fsSL https://code-server.dev/install.sh | sh
+#Username Variable
+RUN adduser periyar --gecos "" --disabled-password
+RUN echo "periyar:periyar@321" | chpasswd
+RUN usermod -aG sudo periyar
+COPY .bashrc /home/periyar/
+COPY .zshrc /home/periyar/
+COPY setup.sh /
+COPY /code-server/login.html /usr/lib/code-server/src/browser/pages/
+COPY /code-server/login.css /usr/lib/code-server/src/browser/pages/
+COPY /code-server/global.css /usr/lib/code-server/src/browser/pages/
+COPY /code-server/logo.png /usr/lib/code-server/src/browser/media/
+COPY /code-server/workbench.html /usr/lib/code-server/lib/vscode/out/vs/code/browser/workbench/
+#Ssh_Peer_variable
+COPY /ssh/keys/peer-5/id_rsa.pub /home/periyar/.ssh/authorized_keys
+RUN chmod +x setup.sh
+CMD ["./setup.sh"]
